@@ -1,3 +1,13 @@
+html {
+    background-color: black;
+}
+
+body {
+    max-width: 1000px; 
+    margin: 0px auto 0px auto;
+    background-color: white;
+}
+
 article.first-part {
     display: flex;
     flex-direction: row;
@@ -11,21 +21,98 @@ h1.main-name {
     text-align: center;
 }
 
-section.seed-bg {
+section.seedBg {
     background-color: rgba(10,132,110,255);
     border-radius: 50%;
-    width: 23vw;
+    width: 30%;
     height: auto;
 }
 
 img.seed {
-    padding: 80px;
+    padding: 100px;
+    width: 35%;
+    height: auto;
 }
 
 button.tips {
     background-color: rgba(10,132,110,255);
     color: white;
     border-radius: 7px;
-    padding: 10px 27px;
+    padding: 15px 35px;
     border: none;
+    margin-left: 290px;
+    margin-top: 10px;
+}
+
+section.middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+section.middle-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.middle img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+h2.middle-name {
+    text-align: center;
+}
+
+.item1 {
+    background-color: white;
+    padding: 10px;
+}
+
+.first-row,
+.second-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    box-shadow: 6px 6px 6px #c8c8c8;
+}
+
+button.remove {
+    background-color: #B93857;
+    border: none;
+    border-radius: 7px;
+    padding: 7px 23px;
+    color: white;
+}
+
+h4 {
+    font-weight: 300;
+    font-size: 16px;
+}
+
+
+
+
+button.more {
+    background-color: rgba(10,132,110,255);
+    color: white;
+    border-radius: 7px;
+    padding: 17px;
+    border: none;
+    margin-top: 25px;;
+    width: 15%;
+
+}
+
+.only-button {
+    text-align: center;
 }
