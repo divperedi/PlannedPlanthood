@@ -1,1 +1,31 @@
+article.first-part {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
 
+h1.main-name {
+    color: rgba(10,132,110,255);
+    text-align: center;
+}
+
+section.seed-bg {
+    background-color: rgba(10,132,110,255);
+    border-radius: 50%;
+    width: 23vw;
+    height: auto;
+}
+
+img.seed {
+    padding: 80px;
+}
+
+button.tips {
+    background-color: rgba(10,132,110,255);
+    color: white;
+    border-radius: 7px;
+    padding: 10px 27px;
+    border: none;
+}
