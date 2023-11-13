@@ -1,1 +1,30 @@
+*, html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 1000px
+}
+
+body header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header section.backgroundImageHeader {
+  background-image: url(assets/hands-featured.jpg);
+  background-repeat: no-repeat;
+  max-width: 501px;
+  max-height: 540px;
+}
+
+aside.brownBackground {
+  background-color: #9E6D52;
+}
+
+aside.greenBackground {
+  
+}
 
