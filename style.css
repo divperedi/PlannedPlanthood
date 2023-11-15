@@ -1,5 +1,4 @@
-*,
-html {
+* {
     margin: 0;
     padding: 0;
     max-width: 1000px;
@@ -16,7 +15,7 @@ body header {
 }
 
 header section.backgroundImageHeader {
-    background-image: url(assets/hands-featured.jpg);
+    background-image: url(assets/Rectangle\ 25.png);
     background-position: center;
     width: 501px;
     height: 540px;
@@ -57,59 +56,4 @@ body header section img.spadeIcon {
     height: 206px;
     width: 155px;
     grid-area: 2 / 2;
-}
-
-
-
-
-
-
-
-main {
-    margin-top: 2rem;
-}
-
-
-body main section.wrapperAroundMain{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-body main section.mainSectionWithGreenCircle{
-    display: flex;
-    justify-content: center;
-    max-width: 467px;
-   
-    flex-direction: column;
-    gap: 1rem;
-}
-
-body main aside.greenCircle {
-    background-color: #0A846E;
-    width: 377px;
-    height: 377px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-body main section h2.odlingarText {
-    font-size: 40px;
-}
-
-body main section p.easterIsHereText {
-    font-size: 16px;
-}
-
-body main button.btnPlantedPlants{
-background-color: #0A846E;
-border-radius: 5px;
-height: 63px;
-width: 281px;
-font-size: 24px;
-color: #fff;
-border: 0;
 }
