@@ -1,1 +1,28 @@
+  body {
+    max-width: 1000px;
+    font-family: 'Maven Pro';
+    margin: 0px auto 0px auto;
+}
+  
+  .menu li { 
+    font-size: 20px;
+    color: #055647; 
+    margin-left: 50px;
+  }
+  
+  .meny {
+    display: flex;
+    justify-content: space-between;
+    border: 1px;
+  }
 
+  .menu ul {
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+  }
+  .menu {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
